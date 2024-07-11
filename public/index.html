@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div>
+                    <input id="calculator-Value" value="0" type="text" name="display"
+                        style="margin-bottom: 30px; width: 94%;">
+                    <!-- <p id="calculator-Value">0</p> -->
+                </div>
+                <div>
+                    <input onclick="onclickButtonSeven()" type="button" value="7">
+                    <input onclick="onclickButtonEight()" type="button" value="8">
+                    <input onclick="onclickButtonNine()" type="button" value="9">
+                    <input onclick="onclickDivide()" type="button" value="/" style="background-color:orange;">
+                </div>
+                <div>
+                    <input onclick="onclickButtonFour()" type="button" value="4">
+                    <input onclick="onclickButtonFive()" type="button" value="5">
+                    <input onclick="onclickButtonSix()" type="button" value="6">
+                    <input onclick="onclickMultiply()" type="button" value="*" style="background-color:orange;">
+                </div>
+                <div>
+                    <input onclick="onclickButtonOne()" type="button" value="1">
+                    <input onclick="onclickButtonTwo()" type="button" value="2">
+                    <input onclick="onclickButtonThree()" type="button" value="3">
+                    <input onclick="onclickAdd()" type="button" value="+" style="background-color:orange;">
+                </div>
+                <div>
+                    <input type="button" value=".">
+                    <input onclick="onclickButtonZero()" type="button" value="0">
+                    <input onclick="calculate()" type="button" value="=">
+                    <input onclick="onclickMinus()" type="button" value="-" style="background-color:orange;">
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
+
+<button id="calculator-Value">7</button>
+<button id="calculator-Value">8</button>
+<button id="calculator-Value">9</button>
+<button id="calculator-Value">4</button>
+<button id="calculator-Value">5</button>
+<button id="calculator-Value">6</button>
+<button id="calculator-Value">1</button>
+<button id="calculator-Value">2</button>
+<button id="calculator-Value">3</button>
+<button id="calculator-Value">0</button>
